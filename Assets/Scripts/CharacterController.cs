@@ -57,6 +57,11 @@ public class MovementController : NetworkBehaviour
     {
         // Gather input
         float horizontal = Input.GetAxis("Horizontal");
+
+        //Disable Rotation
+        horizontal = 0;
+        
+        
         float vertical = Input.GetAxis("Vertical");
         bool handbrake = Input.GetKey(KeyCode.Space);
         MoveData moveData = new MoveData(horizontal, vertical,handbrake);
