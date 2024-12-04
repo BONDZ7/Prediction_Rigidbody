@@ -114,26 +114,26 @@ MonoBehaviour:
   suspensionRestDist: 3
   springStrength: 1000
   springDamper: 100
-  carSpeed: 1000
-  carTopSpeed: 200
+  carSpeed: 400
+  carTopSpeed: 100
   brakeAcceleration: 100
   powerCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
-      inSlope: 9
-      outSlope: 9
+      value: 5
+      inSlope: -4
+      outSlope: -4
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 10
-      inSlope: 9
-      outSlope: 9
+      value: 1
+      inSlope: -4
+      outSlope: -4
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -185,7 +185,7 @@ MonoBehaviour:
   _spectatorInterpolation: 2
   _enableTeleport: 0
   _teleportThreshold: 1
-  <PrefabId>k__BackingField: 2
+  <PrefabId>k__BackingField: 6
   <SpawnableCollectionId>k__BackingField: 0
   <AssetPathHash>k__BackingField: 18259858207990235248
   <SceneId>k__BackingField: 0
